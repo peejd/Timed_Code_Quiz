@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./Assets/style.css">
+    <title>Timed Code Quiz</title>
+</head>
+
+<body>
+    <!-- Area that displays View High Scores button and Quiz Timer -->
+    <nav>
+        <button id="btnHighScores">View High Scores</button>
+        <div id="timer">Time Left: &nbsp;<span id="timer-count"></span>  seconds</div>
+    </nav>
+
+    <!-- Main Quiz Heading and Start button elements-->
+    <header id="quiz-header"> 
+        <h1>Timed Coding Quiz</h1>
+        <button id="start-button">Start</button>
+    </header>
+
+    <main>
+        <!-- Quiz question display elements -->
+        <section id="question-area">
+            <p id="question"></p>
+        </section>
+
+        <!-- Multiple choice answer buttons -->
+        <section class="answer-btn-group" id="choices">
+        </section>
+
+        <!-- Quiz End screen display elements -->
+        <section id="end-game">
+            <h2 id="game-over">QUIZ COMPLETE!</h2>
+            <p id="score-text">Your score is: <span id="score"></span> out of 5.</p>
+            <form id="user-initials">
+                <input type="text" id="initials" name="initials" placeholder="Enter your initials"><br>
+                <input type="submit" id="save-score-btn" value="Save Score & Try Again">
+            </form>
+        </section>
+        <!-- High Scores screen display elements -->
+        <section id="hs-container">
+            <div id="high-scores">
+                <h2 id="hs-title">Top 3 Scores:</h2>
+                <ul id="hs-list"></ul>
+                <button id="take-quiz">Take Quiz</button>
+            </div>
+        </section>
+
+    </main>
+    <!-- Answer validation alert elements -->
+    <footer id="answer-validate">
+        <h3 id="answerCorrect"></h3>
+        <h3 id="answerIncorrect"></h3>    
+    </footer>
+
+    <script src="./Assets/script.js"></script>
+
+</body>
+</html>
