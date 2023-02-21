@@ -27,7 +27,7 @@ let score = 0
 //  Set Question and Answer content here
 const questions = [
     {
-      question: "What checks for both value and data type equivalency in JS?",
+      question: "What operator checks both value and data type equivalency in JavaScript?",
       choices: ["==", "=", "===", "!="],
       correctAnswer: "==="
     },
@@ -43,7 +43,7 @@ const questions = [
     },
     {
       question: "What syntax is used to hide an element using Javascript?",
-      choices: ["[element].display.none", "[element].style.display='none'", "[elemenbt].hide"],
+      choices: ["[element].display.none", "[element].style.display='none'", "[element].hide"],
       correctAnswer: "[element].style.display='none'"
     },
     {
@@ -81,7 +81,7 @@ const questions = [
       incorrect.textContent = "Incorrect!";
 
       // Subract 5 seconds from clock for incorrect answer
-      if (timeLeft >= 10) {
+      if (timeLeft >= 8) {
       timeLeft -= 5;
       }
     }
