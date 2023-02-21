@@ -13,6 +13,7 @@ This project challenged me greatly to use and expand my proficiencies with JavaS
 
 To load and utilize this Coding Quiz, simply visit the following URL from any contemporary web browser connected to the internet, and follow the prompts:
 
+https://peejd.github.io/Timed_Code_Quiz/
 
 
 ## Usage
